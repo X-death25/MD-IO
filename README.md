@@ -1,7 +1,7 @@
 # MD-IO
 USB peripherals on Sega Mega Drive — powered by RP2040
 
-<img src="https://github.com/X-death25/MD-IO/blob/main/images/logo.png" data-canonical-src="https://github.com/X-death25/MD-IO/blob/main/images/logo.png" width="100%" /> 
+<img src="https://github.com/X-death25/MD-IO/blob/main/images/logo.png" data-canonical-src="https://github.com/X-death25/MD-IO/blob/main/images/logo.png" width="50%" /> 
 
 🧠 Overview
 
