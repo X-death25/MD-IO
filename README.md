@@ -1,6 +1,8 @@
 # MD-IO
 USB peripherals on Sega Mega Drive — powered by RP2040
 
+<img src="https://github.com/X-death25/MD-IO/blob/main/images/logo.png" data-canonical-src="https://github.com/X-death25/MD-IO/blob/main/images/logo.png" width="100%" /> 
+
 🧠 Overview
 
 MD IO is an open hardware & software project that enables modern USB peripherals to interface with the Sega Mega Drive / Genesis controller port.
