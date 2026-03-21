@@ -71,6 +71,10 @@ Powered by the **RP2040** in USB Host mode, MD-IO acts as a bridge between USB d
 
 _To be defined._
 
+## 🙏 Thanks
+
+[Sik ](https://plutiedev.com/)
+
 ---
 
 ## 🤝 Contributing
