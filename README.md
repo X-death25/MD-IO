@@ -1,48 +1,79 @@
 # MD-IO
-*Work In Progress*
-USB peripherals on Sega Mega Drive — powered by RP2040
 
+> **Work In Progress** — USB peripherals on Sega Mega Drive, powered by RP2040
 
-<img src="https://github.com/X-death25/MD-IO/blob/main/images/logo.png" data-canonical-src="https://github.com/X-death25/MD-IO/blob/main/images/logo.png" width="50%" /> 
+<p align="center">
+  <img src="https://github.com/X-death25/MD-IO/blob/main/images/logo.png" width="50%" alt="MD-IO Logo"/>
+</p>
 
-🧠 Overview
+---
 
-MD IO is an open hardware & software project that enables modern USB peripherals to interface with the Sega Mega Drive / Genesis controller port.
+## 🧠 Overview
 
-Powered by the RP2040 in USB Host mode, MD IO acts as a bridge between USB devices and the Mega Drive input protocol.
+**MD-IO** is an open hardware & software project that enables modern USB peripherals to interface with the **Sega Mega Drive / Genesis** controller port.
 
-🛠️ Hardware
+Powered by the **RP2040** in USB Host mode, MD-IO acts as a bridge between USB devices and the Mega Drive input protocol.
 
-RP2040 (USB Host capable)
+---
 
-Mega Drive controller port interface
+## 🛠️ Hardware
 
-Level shifting (if required depending on design)
+| Component | Description |
+|-----------|-------------|
+| RP2040 | Microcontroller with native USB Host support |
+| Controller port interface | Mega Drive DB9 connector wiring |
+| Level shifting | Required depending on PCB design |
+| Custom PCB | Optional — reference design available |
 
-Custom PCB (optional)
+### 🔍 Planned Hardware
 
-🔍 Future Hardware
+| Module | Description |
+|--------|-------------|
+| 📡 Open-source probe | Debug & signal analysis tool |
+| 🧾 Serial logger | Peripheral for debugging Mega Drive software |
 
-📡 Open-source probe (debug / signal analysis)
+---
 
-🧾 Serial logging peripheral for debugging Mega Drive software
+## 💾 Supported Peripherals & Firmware
 
-💻 Software
+| Peripheral | Type | Firmware | Status |
+|------------|------|----------|--------|
+| — | — | — | 🚧 Coming soon |
 
-Written in C/C++ using the Pico SDK
+> This table will be updated as peripherals are tested and firmware is released.
 
-USB Host stack integration
+---
 
-Device abstraction layer for peripherals
+## 💻 Software
 
-Mega Drive protocol implementation
+- Written in **C/C++** using the [Pico SDK](https://github.com/raspberrypi/pico-sdk)
+- USB Host stack integration
+- Device abstraction layer for peripherals
+- Mega Drive protocol implementation
 
-🚀 Getting Started
+---
 
-Requirements
+## 🚀 Getting Started
 
-Raspberry Pi Pico / RP2040 board
+### Requirements
 
-USB peripherals (mouse, keyboard, etc.)
+- Raspberry Pi Pico or any RP2040-based board
+- USB peripherals (mouse, keyboard, gamepad, etc.)
+- Sega Mega Drive / Genesis console
 
-Sega Mega Drive / Genesis
+### Flash
+
+> Flash the `.uf2` file to your RP2040 board by holding BOOTSEL while plugging in USB.
+
+---
+
+## 📄 License
+
+_To be defined._
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+Feel free to open an [issue](https://github.com/X-death25/MD-IO/issues) or submit a pull request.
