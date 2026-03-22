@@ -29,7 +29,7 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 | 🎮 Controller port interface | Mega Drive DB9 connector to direct wire | [AliExpress](https://fr.aliexpress.com/item/1005010279134775.html) |
 | ⚡ Level shifting | Required depending on PCB design | [AliExpress](https://fr.aliexpress.com/item/1005007123530432.html) |
 | 🟢🔵🟡🟣 Custom PCB | Choose your color! | — |
-| 📦 optionnal 3D Case | generic case 26-60-16 | [AliExpress](https://fr.aliexpress.com/item/1005006900224809.html?) |
+| 📦 Optional 3D Case | Generic case 26×60×16 mm | [AliExpress](https://fr.aliexpress.com/item/1005006900224809.html) |
 
 ### 🔍 Planned Hardware
 
@@ -49,10 +49,10 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 
 | Peripheral | Type | Firmware | Status | Picture |
 |------------|------|----------|--------|---------|
-| Mega Drive Mini USB gamepad | 3 button | — | ✅ | — |
-| Astro City Mini USB gamepad | 6 button | — | ✅ | — |
-| Aliexpress 6 boutons genuine USB gamepad | 6 button | — | ✅ | — |
-| Generic HID USB Mouse | mouse | — | 🚧 Coming soon | — |
+| Mega Drive Mini USB gamepad | 3 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_md-mini.PNG" width="80px"/> |
+| Astro City Mini USB gamepad | 6 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_astrocity-mini.jpg" width="80px"/> |
+| AliExpress 6-button genuine USB gamepad | 6 button | — | ✅ | — |
+| Generic HID USB Mouse | Mouse | — | 🚧 Coming soon | — |
 
 > This table will be updated as peripherals are tested and firmware is released.
 
@@ -74,8 +74,8 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 - Flash the correct `.uf2` firmware onto your RP2040 (hold **BOOTSEL** while plugging in USB) ⚡
 - Gentlemen, start your Mega Drive / Genesis! 🔥
 
-  ---
-  
+---
+
 ## 📄 License
 
 _To be defined._
@@ -84,8 +84,8 @@ _To be defined._
 
 ## 🙏 Thanks
 
-- [Sik](https://plutiedev.com/)  for his very usefull website , spend a lot of time in the Peripherals part.
-- [Ichigobankai](https://www.2minds.fr/fr/)  for agreeing to test and port the code for Master System support (he doesn't know it yet).
+- [Sik](https://plutiedev.com/) for his very useful website — spent a lot of time in the Peripherals section.
+- [Ichigobankai](https://www.2minds.fr/fr/) for agreeing to test and port the code for Master System support *(he doesn't know it yet)*.
 
 ---
 
@@ -93,4 +93,5 @@ _To be defined._
 
 Contributions, issues and feature requests are welcome!  
 Feel free to open an [issue](https://github.com/X-death25/MD-IO/issues) or submit a pull request.
-You can also join my active Discord for realtime chat : https://discord.gg/qSycu7WTTH
+
+You can also join the active Discord for real-time chat: [discord.gg/qSycu7WTTH](https://discord.gg/qSycu7WTTH) 💬
