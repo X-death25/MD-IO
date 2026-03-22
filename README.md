@@ -60,7 +60,7 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 
 ## 💻 Software
 
-- Written in **C/C++** using the [Pico SDK](https://github.com/raspberrypi/pico-sdk)
+- Written in **C** using the [Pico SDK](https://github.com/raspberrypi/pico-sdk)
 - USB Host stack integration
 - Device abstraction layer for peripherals
 - Mega Drive protocol implementation
