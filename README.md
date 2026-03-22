@@ -39,7 +39,7 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 | 🕹️ 6-button controller | Extended Sega gamepad with Mode button support for legacy use |
 | 🖱️ Sega Mouse | 3-button Sega Mouse |
 | ⌨️ Saturn Keyboard | Works on MD via a passive adapter — so really needs to be supported here too 😉 |
-| 🖨️ Printer | Yes. I have ideas. |
+| 🖨️ Printer | Yes. I have some ideas 🤯 . |
 | 📡 Open-source probe | Debug & signal analysis tool |
 | 🧾 Serial logger | Send logs directly from your MD to PC |
 
