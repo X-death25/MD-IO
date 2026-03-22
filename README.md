@@ -29,7 +29,7 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 | 🎮 Controller port interface | Mega Drive DB9 connector to direct wire | [AliExpress](https://fr.aliexpress.com/item/1005010279134775.html) |
 | ⚡ Level shifting | Required depending on PCB design | [AliExpress](https://fr.aliexpress.com/item/1005007123530432.html) |
 | 🟢🔵🟡🟣 Custom PCB | Choose your color! | — |
-| ⚡ optionnal 3D Case | generic case 26-60-16 | [AliExpress](https://fr.aliexpress.com/item/1005006900224809.html?) |
+| 📦 optionnal 3D Case | generic case 26-60-16 | [AliExpress](https://fr.aliexpress.com/item/1005006900224809.html?) |
 
 ### 🔍 Planned Hardware
 
@@ -86,7 +86,8 @@ _To be defined._
 
 ## 🙏 Thanks
 
-- [Sik](https://plutiedev.com/)
+- [Sik](https://plutiedev.com/)  for his very usefull website , spend a lot of time in the Peripherals part.
+- [Ichigobankai](https://www.2minds.fr/fr/)  for agreeing to test and port the code for Master System support (he doesn't know it yet).
 
 ---
 
