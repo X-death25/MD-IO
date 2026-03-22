@@ -28,7 +28,7 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 | 🧠 RP2040 Zero | Dual-core MCU with native USB Host support | — |
 | 🎮 Controller port interface | Mega Drive DB9 connector wiring | — |
 | ⚡ Level shifting | Required depending on PCB design | — |
-| 🟢 Custom PCB | Choose your color! | — |
+| 🟢🔵🟡🟣 Custom PCB | Choose your color! | — |
 
 ### 🔍 Planned Hardware
 
