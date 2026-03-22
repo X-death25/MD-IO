@@ -13,32 +13,34 @@
 **MD-IO** is an open hardware & software project that enables modern USB peripherals to interface with the **Sega Mega Drive / Genesis** controller port.
 
 Powered by the **RP2040 Zero** in USB Host mode, MD-IO acts as a bridge between USB devices and the Mega Drive input protocol.
-One core is used for USB Host.
-Other core is used for Megadrive controller.
-Goal of this project is to use some cool USB device with my megadrive like Astro city gamepad , arcade stick and preserve some rarely device just like mouse , keyboard or maybe printer ;)
+
+- One core is dedicated to **USB Host**
+- The other core handles the **Mega Drive controller protocol**
+
+The goal of this project is to use cool USB devices with my Mega Drive — like the Astro City gamepad, arcade sticks — and to preserve some rare peripherals like the mouse, keyboard, or maybe even a printer 😄
 
 ---
 
 ## 🛠️ Hardware
 
 | Component | Description | Link |
-|-----------|-------------|
-| RP2040 Zero | Dual Core RP with native USB Host support |
-| Controller port interface | Mega Drive DB9 connector wiring |
-| Level shifting | Required depending on PCB design |
-| Custom PCB | use correct color PCB wanted device |
+|-----------|-------------|------|
+| 🧠 RP2040 Zero | Dual-core MCU with native USB Host support | — |
+| 🎮 Controller port interface | Mega Drive DB9 connector wiring | — |
+| ⚡ Level shifting | Required depending on PCB design | — |
+| 🟢 Custom PCB | Choose your color! | — |
 
 ### 🔍 Planned Hardware
 
 | Module | Description |
 |--------|-------------|
-| 3 bouton controller | Classic Sega Gamepad can also be used in Master System / Mark 3 |
-| 6 bouton controller | Extended 6 boutons Sega Gamepad with mode support for legacy use|
-| Sega Mouse | 3 boutons Sega Mouse|
-| Saturn Keyboard | Saturn keyboard can be used in MD with a passive adaptater so need to be suported here too ;)|
-| Printer| -_-' yes , i have some idea|
+| 🕹️ 3-button controller | Classic Sega gamepad — also compatible with Master System / Mark III |
+| 🕹️ 6-button controller | Extended Sega gamepad with Mode button support for legacy use |
+| 🖱️ Sega Mouse | 3-button Sega Mouse |
+| ⌨️ Saturn Keyboard | Works on MD via a passive adapter — needs to be supported here too 😉 |
+| 🖨️ Printer | Yes. I have ideas. |
 | 📡 Open-source probe | Debug & signal analysis tool |
-| 🧾 Serial logger | Peripheral for debugging Mega Drive software : send direct log from your MD to PC |
+| 🧾 Serial logger | Send logs directly from your MD to PC |
 
 ---
 
@@ -65,13 +67,13 @@ Goal of this project is to use some cool USB device with my megadrive like Astro
 
 ### Requirements
 
-- Raspberry Pi Pico or any RP2040-based board
+- RP2040 Zero (or any RP2040-based board)
 - USB peripherals (mouse, keyboard, gamepad, etc.)
 - Sega Mega Drive / Genesis console
 
 ### Flash
 
-> Flash the `.uf2` file to your RP2040 board by holding BOOTSEL while plugging in USB.
+> Flash the `.uf2` file to your RP2040 board by holding **BOOTSEL** while plugging in USB.
 
 ---
 
@@ -79,13 +81,15 @@ Goal of this project is to use some cool USB device with my megadrive like Astro
 
 _To be defined._
 
+---
+
 ## 🙏 Thanks
 
-[Sik ](https://plutiedev.com/)
+- [Sik](https://plutiedev.com/)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and feature requests are welcome!  
 Feel free to open an [issue](https://github.com/X-death25/MD-IO/issues) or submit a pull request.
