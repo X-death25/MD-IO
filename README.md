@@ -91,3 +91,4 @@ _To be defined._
 
 Contributions, issues and feature requests are welcome!  
 Feel free to open an [issue](https://github.com/X-death25/MD-IO/issues) or submit a pull request.
+You can also join my active Discord for realtime chat : https://discord.gg/qSycu7WTTH
