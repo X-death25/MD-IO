@@ -47,9 +47,10 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 
 ## 💾 Supported Peripherals & Firmware
 
-| Peripheral | Type | Firmware | Status |
+| Peripheral | Type | Firmware | Status | Picture |
 |------------|------|----------|--------|
-| — | — | — | 🚧 Coming soon |
+| Mega Drive Mini USB gamepad  | 3 button | — | :white_check_mark: | — |
+| Mega Drive Mini USB gamepad  | 3 button | — | 🚧 Coming soon | — |
 
 > This table will be updated as peripherals are tested and firmware is released.
 
