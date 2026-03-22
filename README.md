@@ -50,7 +50,9 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 | Peripheral | Type | Firmware | Status | Picture |
 |------------|------|----------|--------|---------|
 | Mega Drive Mini USB gamepad | 3 button | — | ✅ | — |
-| Mega Drive Mini USB gamepad | 3 button | — | 🚧 Coming soon | — |
+| Astro City Mini USB gamepad | 6 button | — | ✅ | — |
+| Aliexpress 6 boutons genuine USB gamepad | 6 button | — | ✅ | — |
+| Generic HID USB Mouse | mouse | — | 🚧 Coming soon | — |
 
 > This table will be updated as peripherals are tested and firmware is released.
 
