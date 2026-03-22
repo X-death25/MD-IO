@@ -66,18 +66,13 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 
 ## 🚀 Getting Started
 
-### Requirements
+- Pick the right board for your target device 🎯
+- Solder the required components — nothing too scary, promise! 🔧
+- Flash the correct `.uf2` firmware onto your RP2040 (hold **BOOTSEL** while plugging in USB) ⚡
+- Gentlemen, start your Mega Drive / Genesis! 🔥
 
-- RP2040 Zero (or any RP2040-based board)
-- USB peripherals (mouse, keyboard, gamepad, etc.)
-- Sega Mega Drive / Genesis console
-
-### Flash
-
-> Flash the `.uf2` file to your RP2040 board by holding **BOOTSEL** while plugging in USB.
-
----
-
+  ---
+  
 ## 📄 License
 
 _To be defined._
