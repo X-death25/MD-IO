@@ -32,10 +32,11 @@ Goal of this project is to use some cool USB device with my megadrive like Astro
 
 | Module | Description |
 |--------|-------------|
-| 3 bouton controller | Classic Sega Gamepad|
-| 6 bouton controller | Extended 6 boutons Sega Gamepad|
+| 3 bouton controller | Classic Sega Gamepad can also be used in Master System / Mark 3 |
+| 6 bouton controller | Extended 6 boutons Sega Gamepad with mode support for legacy use|
 | Sega Mouse | 3 boutons Sega Mouse|
 | Saturn Keyboard | Saturn keyboard can be used in MD with a passive adaptater so need to be suported here too ;)|
+| Printer| -_-' yes , i have some idea|
 | 📡 Open-source probe | Debug & signal analysis tool |
 | 🧾 Serial logger | Peripheral for debugging Mega Drive software : send direct log from your MD to PC |
 
