@@ -39,7 +39,7 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 | 🕹️ 6-button controller | Extended Sega gamepad with Mode button support for legacy use |
 | 🖱️ Sega Mouse | 3-button Sega Mouse |
 | ⌨️ Saturn Keyboard | Works on MD via a passive adapter — so really needs to be supported here too 😉 |
-| 🖨️ Printer | Yes. I have some ideas 🤯 . |
+| 🖨️ Printer | Yes. I have some ideas 🤯 |
 | 📡 Open-source probe | Debug & signal analysis tool |
 | 🧾 Serial logger | Send logs directly from your MD to PC |
 
@@ -48,11 +48,11 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 ## 💾 Supported Peripherals & Firmware
 
 | Peripheral | Type | Firmware | Status | Picture |
-|------------|------|----------|--------|---------|
+|------------|------|----------|:------:|---------|
 | Mega Drive Mini USB gamepad | 3 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_md-mini.PNG" width="80px"/> |
 | Astro City Mini USB gamepad | 6 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_astrocity-mini.jpg" width="80px"/> |
 | AliExpress 6-button genuine USB gamepad | 6 button | — | ✅ | — |
-| Generic HID USB Mouse | Mouse | — | 🚧 Coming soon | — |
+| Generic HID USB Mouse | Mouse | — | 🚧 | — |
 
 > This table will be updated as peripherals are tested and firmware is released.
 
