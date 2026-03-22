@@ -51,7 +51,7 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 |------------|------|----------|:------:|---------|
 | Mega Drive Mini USB gamepad | 3 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_md-mini.PNG" width="80px"/> |
 | Astro City Mini USB gamepad | 6 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_astrocity-mini.jpg" width="80px"/> |
-| AliExpress 6-button genuine USB gamepad | 6 button | — | ✅ | — |
+| AliExpress 6-button genuine USB gamepad | 6 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_astrocity-mini.jpg" width="80px"/> |
 | Generic HID USB Mouse | Mouse | — | 🚧 | — |
 
 > This table will be updated as peripherals are tested and firmware is released.
