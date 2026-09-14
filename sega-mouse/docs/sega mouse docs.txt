@@ -1,0 +1,42 @@
+Charles MacDonalds doc on the Genesis IO, where you find this:
+
+
+Sega Mega Mouse
+
+This is a three button mouse (left, middle, right) with an extra button (Start) located near the thumb position. It uses a PIC16C54
+microcontroller which manages the buttons and position tracking.
+The Sega Mega Mouse that is distributed in North America is incompatible with the European version of Populous 2. The mouse
+functions normally but has Y axis inverted so up is down and vice-versa. It may have been designed for the Japanese Mega Drive
+mouse, which is a different product with 2 buttons and unique physical appearance.
+The protocol works as follows: TH and TR are outputs which tell the microcontroller to stop or start a data transfer, and to
+acknowledge received data. TL is an input which returns a busy flag for the microcontroller. D3-D0 are inputs that return the data.
+
+Here's a table showing the communication process:
+Write 
+TH TR TL D3 D2 D1 D0 Description
+$60 1 1 1 0 0 0 0                        Request data
+$20 0 1 1 0 0 0 0                        ID #0 ($0)
+$00 0 0 1 1 0 1 1                        ID #1 ($B)
+$20 0 1 0 1 1 1 1                        ID #2 ($F)
+$00 0 0 1 1 1 1 1                        ID #3 ($F)
+$20 0 1 0 Y Over X Over Y Sign X Sign    Axis sign and overflow
+$00 0 0 1 Start Middle Right Left        Button state
+$20 0 1 0 X7 X6 X5 X4                    X axis MSN
+$00 0 0 1 X3 X2 X1 X0                    X axis LSN
+$20 0 1 0 Y7 Y6 Y5 Y4                    Y axis MSN
+$00 0 0 1 Y3 Y2 Y1 Y0                    Y axis LSN
+
+Write #$60 when you are done polling to stop the data transfer. If you continue to poll the mouse after collecting all the data by
+writing $20 / $00, the Y axis LSN will always be returned. Sega advises polling beyond this point will make the mouse behave
+abnormally. It's possible that the PIC code in some versions of the Mega Mouse may have problems if the poll sequence is too
+long.
+
+The X/Y overflow flags are supposed to be set if the mouse is moved over a distance greater than can be measured. I can't get
+them to become set, maybe the mouse supports a fairly wide range of movement.
+
+You need a considerable delay between writing new values to TH/TR. I think the intention is to poll TL until the microcontroller
+returns 'not busy', but I can't get this to work reliably. 
+Sega's mouse reading code also has a timeout when checking TL which
+would indicate it may get stuck in a certain state.
+
+All buttons (start, left, middle, right) are active-high logic, so they return '1' when pressed and '0' when released.
