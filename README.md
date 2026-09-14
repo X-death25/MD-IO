@@ -10,7 +10,7 @@
 
 ## 🧠 Overview
 
-**MD-IO** is an open hardware & software project that enables modern USB peripherals to interface with the **Sega Mega Drive / Genesis** controller port.
+**MD-IO** is a hardware & software project that enables modern USB peripherals to interface with the **Sega Mega Drive / Genesis** controller port.
 
 Powered by the **RP2040 Zero** in USB Host mode, MD-IO acts as a bridge between USB devices and the Mega Drive input protocol.
 
@@ -49,9 +49,9 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 
 | Peripheral | Type | Firmware | Status | Picture |
 |------------|------|----------|:------:|---------|
-| Mega Drive Mini USB gamepad | 3 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_md-mini.PNG" width="80px"/> |
-| Astro City Mini USB gamepad | 6 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_astrocity-mini.jpg" width="80px"/> |
-| AliExpress 6-button genuine USB gamepad | 6 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_ali-6boutons.PNG" width="80px"/> |
+| Mega Drive Mini USB gamepad | 3 button | [`/3-button`](./3-button) | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_md-mini.PNG" width="80px"/> |
+| Astro City Mini USB gamepad | 6 button | [`/6-button`](./6-button) | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_astrocity-mini.jpg" width="80px"/> |
+| AliExpress 6-button genuine USB gamepad | 6 button | [`/6-button`](./6-button) | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_ali-6boutons.PNG" width="80px"/> |
 | Generic HID USB Mouse | Mouse | [`/sega-mouse`](./sega-mouse) | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/usb-mouse.jpg" width="80px"/> |
 | Generic HID USB Qwerty Keyboard | Keyboard | [`/saturn-keyboard`](./saturn-keyboard) | 🚧 | <img src="https://github.com/X-death25/MD-IO/blob/main/images/usb-q-keyboard.jpg" width="80px"/> |
 | Generic HID USB Azerty Keyboard | Keyboard | [`/saturn-keyboard`](./saturn-keyboard) | 🚧 | <img src="https://github.com/X-death25/MD-IO/blob/main/images/usb-a-keyboard.jpg" width="80px"/> |
@@ -92,9 +92,7 @@ If you want to support this project and its author, you can buy a ready-to-use M
 > 
 > 👉 You can also ask me directly on Discord if you don't want to use Tindie *(link at the bottom of the readme)*.
 
-This is the best way to keep the project alive, fund new hardware experiments, and yes — feed my component addiction 😄
-
-All hardware designs and source code are fully open source. Feel free to build it yourself, but if you enjoy the project, consider supporting it!
+Firmware source code is currently closed while I sell a first batch of adapters to help fund development time — precompiled `.uf2` firmware is provided in each module's folder, and full sources will be released publicly once that's done.
 
 ---
 
