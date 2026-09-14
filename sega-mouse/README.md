@@ -82,7 +82,7 @@ A few highlights worth trying first if you're not sure where to start:
 | **Wolf 3d** | Awesome PC Wolf 3D port by GASEGA68k support Sega mouse very well  |
 | **Dungeon Master II: Skullkeep** | Full mouse-driven dungeon crawler, great showcase of precise cursor control |
 | **Shanghai II** | Very cute and nice Puzzle game for a chill session  |
-| **Dune The Battle For Arrakis ** | ( mouse hack => (https://www.romhacking.net/hacks/6403/)) Mouse support via the well-known "mouse hack" — a fun curiosity for RTS fans |
+| **Dune The Battle For Arrakis** | ( mouse hack => (https://www.romhacking.net/hacks/6403/)) Mouse support via the well-known "mouse hack" — a fun curiosity for RTS fans |
 | **Eye of the Beholder** | Another dungeon crawler classic, mouse-first UI |
 | **Lord Monarch: Tokoton Sentou Densetsu** | Real-time castle-vs-castle strategy from Falcom's Dragon Slayer series — got an English translation patch, finally accessible to non-Japanese speakers |
 
