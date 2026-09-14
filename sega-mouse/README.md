@@ -19,8 +19,8 @@ The most cheap usb mouse will me enough , no need to use RGB gamer mouse ;)
 Tested on real hardware (console + flashcart + original cartridges/CDs).
 
 <p align="center">
-  <img src="images/monkey-island.jpg" width="45%" alt="The Secret of Monkey Island running with mouse support"/>
-  <img src="images/dungeon-master-2.jpg" width="45%" alt="Dungeon Master II running with mouse support"/>
+  <img src="images/monkey-island.JPG" width="45%" alt="The Secret of Monkey Island running with mouse support"/>
+  <img src="images/dungeon-master-2.JPG" width="45%" alt="Dungeon Master II running with mouse support"/>
 </p>
 
 > ⚠️ **Port matters!** Not all games expect the mouse on the same controller port. Some titles look for it on **Port 1**, others on **Port 2** — plug it into the wrong port and the game will simply fall back to pad input (or not respond at all), even though the adapter itself is working fine. Check the port column in the full compatibility file below before assuming a game is "not working."
@@ -114,7 +114,7 @@ See [`/firmware`](./firmware) for the RP2040 uf2 file.
 Since the Sega Saturn I/O port shares the exact same signal lines as the Mega Drive port (just a different connector shape), a **passive adapter** (simple rewiring, no active components) is enough to use a genuine **Saturn Shuttle Mouse** on your Mega Drive/Mega-CD — no RP2040 needed for that specific case, since the Shuttle Mouse already speaks the native Sega Mouse protocol.
 
 <p align="center">
-  <img src="images/saturn-pinout.png" width="70%" alt="Saturn I/O port pinout by Plutiedev"/>
+  <img src="images/saturn_convert.JPG" width="70%" alt="Saturn I/O port pinout by Plutiedev"/>
 </p>
 
 | Common name | Mega Drive style name |
