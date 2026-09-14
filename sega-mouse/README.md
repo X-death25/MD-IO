@@ -2,10 +2,6 @@
 
 > Use **any standard USB mouse** as a Sega Mouse on your Mega Drive / Mega-CD — no need to hunt down a rare original Mega Mouse!
 
-<p align="center">
-  <img src="images/setup.jpg" width="70%" alt="USB mouse plugged into the RP2040 adapter, connected via DB9 to the console"/>
-</p>
-
 ---
 
 ## 🧠 Overview
@@ -83,7 +79,7 @@ A few highlights worth trying first if you're not sure where to start:
 | **Wolf 3d** | Awesome PC Wolf 3D port by GASEGA68k support Sega mouse very well  |
 | **Dungeon Master II: Skullkeep** | Full mouse-driven dungeon crawler, great showcase of precise cursor control |
 | **Shanghai II** | Very cute and nice Puzzle game for a chill session  |
-| **Dune The Battle For Arrakis ** | (+ [mouse hack](https://www.romhacking.net/hacks/6403/)) | Mouse support via the well-known "mouse hack" — a fun curiosity for RTS fans |
+| **Dune The Battle For Arrakis ** | ( mouse hack => (https://www.romhacking.net/hacks/6403/)) Mouse support via the well-known "mouse hack" — a fun curiosity for RTS fans |
 | **Eye of the Beholder** | Another dungeon crawler classic, mouse-first UI |
 | **Lord Monarch: Tokoton Sentou Densetsu** | Real-time castle-vs-castle strategy from Falcom's Dragon Slayer series — got an English translation patch, finally accessible to non-Japanese speakers |
 
@@ -135,7 +131,7 @@ Since the Sega Saturn I/O port shares the exact same signal lines as the Mega Dr
 
 > Pinout diagram credit: [Sik / Plutiedev](https://plutiedev.com/) (public domain)
 
-Note that Mega Drive and Saturn peripherals are **not** electrically identical in protocol — a passive adapter just rewires the connector, the actual handshake logic (like the one implemented in this RP2040 firmware) still needs to match what the console expects.
+Saturn Shuttle mouse seems to works fine even in the non working game in my compatibility list.
 
 ### Why this project exists
 
