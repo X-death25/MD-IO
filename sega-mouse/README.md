@@ -135,7 +135,7 @@ Saturn Shuttle mouse seems to works fine even in the non working game in my comp
 
 ### Why this project exists
 
-Genuine Sega/Mega Mouse units are rare and often expensive on the second-hand market. This adapter lets you use any cheap USB mouse instead, while still being fully compatible with the original protocol — so it also works as a drop-in replacement if you don't want to risk your only genuine unit.
+Genuine Sega/Mega Mouse units are rare and often expensive on the second-hand market. This adapter lets you use any cheap USB mouse instead, while still being *near* fully compatible with the original protocol — so it also works as a drop-in replacement if you don't want to risk your only genuine unit.
 
 Beyond that, this project is also about **preservation**: a lot of time went into probing the real protocol with a logic analyzer, comparing it against a genuine Saturn Shuttle Mouse, and documenting the quirks and edge cases along the way (see [`/docs`](./docs)). The goal is to leave behind an accurate, tested reference — both for keeping these old peripherals usable long-term, and for anyone writing new SGDK homebrew who wants proper mouse support without having to buy an expensive and rare original mouse.
 
