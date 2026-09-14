@@ -89,9 +89,8 @@ A few highlights worth trying first if you're not sure where to start:
 
 - **Urusei Yatsura: Dear My Friends (JAP)** — desyncs after a few nibbles; the game's own mouse polling appears fragile. Not yet resolved.
 
-- **Cannon Fodder** — has a known-buggy mouse acquisition routine that only works on real Sega Mouse "by chance," ( according to Eke Eke ) relying on the natural ACK delay between a TR change and the corresponding TL response. 
-Emulators that answer TR instantaneously hit the same issue. Documented by [Eke on the Genesis dev forum](https://gendev.spritesmind.net/forum/memberlist.php?mode=viewprofile&u=41&sid=a11b0d1857255a04f9681187571375ca). Interestingly, **Shanghai II** — cited in the same thread as having an equally buggy routine — works perfectly on this adapter, likely because the BlastEM-derived timings used here happen to land in the right window. See [`docs/known-hardware-quirks.md`](docs/known-hardware-quirks.md) for the full technical writeup.
-
+- **Cannon Fodder** — has a known-buggy mouse acquisition routine that only works on real Sega Mouse "by chance" (according to Eke Eke), relying on the natural ACK delay between a TR change and the corresponding TL response.
+Emulators that answer TR instantaneously hit the same issue. Documented by [Eke on the Genesis dev forum](https://gendev.spritesmind.net/forum/memberlist.php?mode=viewprofile&u=41&sid=a11b0d1857255a04f9681187571375ca). Interestingly, **Shanghai II** — cited in the same thread as having an equally buggy routine — works perfectly with my adapter... Maybe because the BlastEM-derived timings used here happen to land in the right window. (another thanks to Emu dev who found the way long years ago...).
 - **StarBlade (Mega-CD)** — uses a non-standard mouse acquisition routine, different from the usual 9-nibble handshake. According to Eke, it breaks if the emulator/adapter applies a uniform TL delay on the 0x40→0x60 transition 
 — the opposite fix from what Cannon Fodder needs. Not currently supported.
 
