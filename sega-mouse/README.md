@@ -11,8 +11,7 @@ This module turns a cheap, generic USB mouse into a fully compatible **Sega Mous
 - **Core 0** emulates the native Sega Mouse protocol (TH/TR/TL handshake, 9-nibble packet) directly on the DB9 controller port
 - **Core 1** reads the USB mouse via USB Host (TinyUSB)
 
-No original Sega Mouse required — any standard 2-3 button USB mouse works.
-
+The most cheap usb mouse will me enough , no need to use RGB gamer mouse ;)
 ---
 
 ## 🎮 Compatibility
