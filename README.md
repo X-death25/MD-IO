@@ -52,9 +52,9 @@ The goal of this project is to use cool USB devices with my Mega Drive — like 
 | Mega Drive Mini USB gamepad | 3 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_md-mini.PNG" width="80px"/> |
 | Astro City Mini USB gamepad | 6 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_astrocity-mini.jpg" width="80px"/> |
 | AliExpress 6-button genuine USB gamepad | 6 button | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/gamepad_ali-6boutons.PNG" width="80px"/> |
-| Generic HID USB Mouse | Mouse | — | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/usb-mouse.jpg" width="80px"/> |
-| Generic HID USB Qwerty Keyboard | Keyboard | — | 🚧 |  <img src="https://github.com/X-death25/MD-IO/blob/main/images/usb-q-keyboard.jpg" width="80px"/> |
-| Generic HID USB Azerty Keyboard | Keyboard | — | 🚧 |  <img src="https://github.com/X-death25/MD-IO/blob/main/images/usb-a-keyboard.jpg" width="80px"/> |
+| Generic HID USB Mouse | Mouse | [`/sega-mouse`](./sega-mouse) | ✅ | <img src="https://github.com/X-death25/MD-IO/blob/main/images/usb-mouse.jpg" width="80px"/> |
+| Generic HID USB Qwerty Keyboard | Keyboard | [`/saturn-keyboard`](./saturn-keyboard) | 🚧 | <img src="https://github.com/X-death25/MD-IO/blob/main/images/usb-q-keyboard.jpg" width="80px"/> |
+| Generic HID USB Azerty Keyboard | Keyboard | [`/saturn-keyboard`](./saturn-keyboard) | 🚧 | <img src="https://github.com/X-death25/MD-IO/blob/main/images/usb-a-keyboard.jpg" width="80px"/> |
 
 > This table will be updated as peripherals are tested and firmware is released.
 
