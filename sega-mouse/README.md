@@ -4,6 +4,10 @@
 
 ---
 
+<p align="center">
+  <img src="images/mouse_01.JPG" width="70%" alt="Standard USB mouse connected to the RP2040 adapter, wired to the console via DB9"/>
+</p>
+
 ## 🧠 Overview
 
 This module turns a cheap, generic USB mouse into a fully compatible **Sega Mouse (Mega Mouse)** replacement for the Sega Mega Drive and Mega-CD.
